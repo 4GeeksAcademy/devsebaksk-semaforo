@@ -9,3 +9,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.ligth-on{
+    -webkit-box-shadow:0px 0px 27px 13px rgba(204,232,224,0.9);
+-moz-box-shadow: 0px 0px 27px 13px rgba(204,232,224,0.9);
+box-shadow: 0px 0px 27px 13px rgba(204,232,224,0.9);
+}
+
+.cuerpo{
+    background-color: black;
+    width: 80px;
+    height: 180px;
+    display:inline-table;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.cuerpo div{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    justify-self: center;
+    margin-top: 7px;
+}
