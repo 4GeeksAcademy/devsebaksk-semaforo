@@ -5,6 +5,8 @@ import '/src/styles/index.css'
 function Semaforo() {
   const [seleccionado, setSeleccionado] = useState("ligth-on");
   return (
+    <div className='contenedor'>
+      <div className='soporte'></div>
     <div className='cuerpo'>
 				<div className={`bg-danger ${seleccionado == 'bg-danger' ? 'ligth-on' : ''}`} onClick={() => { setSeleccionado("bg-danger") }}></div>
 
@@ -12,6 +14,7 @@ function Semaforo() {
 
 				<div className={`bg-success ${seleccionado == 'bg-success' ? 'ligth-on' : ''}`} onClick={() => { setSeleccionado("bg-success") }}></div>
 			</div>
+      </div>
   )
 }
 
